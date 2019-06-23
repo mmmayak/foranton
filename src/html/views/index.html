@@ -4,6 +4,19 @@
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 
-<div class="container">Первая страница.</div>
+<%= _.template(require('./../includes/main-page/banner.html').default)(data) %>
+
+<%= _.template(require('./../includes/main-page/consultation-section.html').default)(data) %>
+
+<%= _.template(require('./../includes/main-page/powerfullbrand.html').default)(data) %>
+
+<%= _.template(require('./../includes/main-page/services.html').default)(data) %>
+
+<%= _.template(require('./../includes/main-page/received.html').default)(data) %>
+<%= _.template(require('./../includes/main-page/ourworks.html').default)(data) %>
+<%= _.template(require('./../includes/main-page/whyweare.html').default)(data) %>
+<%= _.template(require('./../includes/main-page/howwedo.html').default)(data) %>
+
+<%= _.template(require('./../includes/main-page/clients.html').default)(data) %>
 
 <%= _.template(require('./../includes/footer.html').default)(data) %>
