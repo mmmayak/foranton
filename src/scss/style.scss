@@ -483,3 +483,31 @@ footer {
   }
 
 }
+
+.footer {
+  &__phone {
+    img {
+      width: 25px !important;
+    }
+  }
+
+  &__email {
+    img {
+      width: 25px !important;
+    }
+  }
+
+  &__copyright {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .banner {
+    &__title {
+      font-size: 56px;
+    }
+  }
+}
