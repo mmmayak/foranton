@@ -6,7 +6,20 @@ Roboto,
 sans-serif;
 
 @import "~bootstrap/scss/bootstrap";
+@font-face {
+  font-family: Ristretto;
+  src: url(../fonts/Ristrettopro-regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Robotocondensedlight.ttf);
+  font-weight: 300;
+}
 
+@font-face {
+  font-family: Roboto-normal;
+  src: url(../fonts/Robotocondensed.ttf);
+}
 
 html,
 body,
@@ -137,7 +150,7 @@ q:after {
 }
 
 .btn-dark {
-  background: rgb(15, 19, 58) !important;
+  background: rgb(35, 43, 75) !important;
 
   &:hover {
     background: rgb(26, 33, 88) !important;
@@ -150,7 +163,7 @@ table {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 
   #logo {
     width: 10rem;
@@ -164,12 +177,13 @@ body {
 }
 
 .main-title {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: Ristretto, sans-serif;
+  font-weight: bold;
   font-size: 44px;
 }
 
 .navbar {
-  background: rgb(15, 19, 58) !important;
+  background: rgb(35, 43, 75) !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -184,8 +198,9 @@ body {
   position: relative;
 
   &__title {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: Ristretto, sans-serif;
     color: #ffff;
+    font-weight: bold;
     font-size: 66px;
     line-height: 60px;
   }
@@ -228,7 +243,7 @@ body {
   }
 
   &__form {
-    background: rgba(15, 19, 58, 0.7);
+    background: rgba(35, 43, 75, 0.7);
     padding: 40px 20px;
     border-radius: 10px;
   }
@@ -367,7 +382,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 120px;
-    background: rgba(15, 19, 58, 0.6);
+    background: rgba(35, 43, 75, 0.6);
     height: 120px;
     border-radius: 50%;
     -webkit-box-shadow: 0px 9px 14px -5px rgba(0, 0, 0, 1);
@@ -489,7 +504,7 @@ body {
 }
 
 footer {
-  background: #000000;
+  background: rgb(35, 43, 75);
 
   h3 {
     color: #fff;
@@ -497,7 +512,7 @@ footer {
 }
 
 .clients {
-  background: #000000;
+  background: rgb(35, 43, 75);
 
   &__imgCont {
     display: flex;
