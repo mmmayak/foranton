@@ -350,9 +350,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transition: all 0.4s;
   }
-
+  &__imgCont:hover &__img {
+    width: 80px !important;
+  }
   &__img {
     width: 70px !important;
   }
