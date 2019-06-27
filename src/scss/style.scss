@@ -2,6 +2,8 @@ $font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans",
   "Helvetica Neue", sans-serif;
 
 @import "~bootstrap/scss/bootstrap";
+/* @import "~@fortawesome/fontawesome-free"; */
+
 @font-face {
   font-family: Ristretto;
   src: url(../fonts/Ristrettopro-regular.ttf);
@@ -16,6 +18,7 @@ $font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans",
   font-family: Roboto-normal;
   src: url(../fonts/Robotocondensed.ttf);
 }
+
 
 html,
 body,

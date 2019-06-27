@@ -6,14 +6,14 @@
 
     <link rel="shortcut icon" href="favicon/favicon.ico" />
     <link rel="stylesheet" href="css/style.bundle.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic"
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css" />
+    <!-- <link
       rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    /> -->
+    <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+
+    <!-- <script src="https://kit.fontawesome.com/394342937b.js"></script> -->
     <title>Заголовок | Проект</title>
   </head>
 
@@ -65,7 +65,6 @@
               <p>буклеты, презентации, каталоги</p>
               <p>корпоративные видео</p>
             </div>
-            <button type="button" class="btn btn-light mt-4 btn-lg">Скачать презентацию</button>
           </div>
           <div class="col-md-4">
             <form class="banner__form">
@@ -92,7 +91,7 @@
     <div class="container py-5 consultation">
       <div class="row">
         <div class="col-md-6 d-flex align-items-center justify-content-center mb-5 mb-md-0">
-          <img class="consultation__image" src="../../../img/phone.jpg" alt="" />
+          <img class="consultation__image" src="img/phone.jpg" alt="" />
         </div>
         <div class="col-md-6 d-flex flex-column justify-content-center">
           <h2 class="consultation__title mb-4 text-center text-md-left">Уникальный дизайн для бизнес аккаунтов</h2>
@@ -147,10 +146,10 @@
     </div>
 
     <div class="powerfullbrand d-flex flex-column justify-content-center">
-      <div class="container py-5 ">
+      <div class="container py-4 ">
         <div class="row">
           <div class="col-md-10 mx-auto ">
-            <h3 class="powerfullbrand__title mb-4 text-center">
+            <h3 class="powerfullbrand__title mb-3 text-center">
               Сильный бренд - единый образ!
             </h3>
             <p class="powerfullbrand__text text-center">
@@ -161,18 +160,18 @@
       </div>
     </div>
 
-    <div class="container py-5 services">
+    <div class="container py-4 services">
       <div class="row">
-        <div class="col-md-10 mx-auto mb-5">
+        <div class="col-md-10 mx-auto mb-3">
           <h3 class="main-title text-center">
             Наши услуги
           </h3>
         </div>
-        <div class="col-md-6 mb-5">
+        <div class="col-md-4 mb-3">
           <div class="services__imgCont mb-3 mx-auto">
-            <img class="services__img" src="../../../img/passport.png" alt="" />
+            <i class="fas fa-passport"></i>
           </div>
-          <h4 class="title mb-4 text-center">
+          <h4 class="title mb-2 text-center">
             Корпоративная айдентика
           </h4>
           <p class="services__text text-center">
@@ -181,11 +180,11 @@
             корпоративный образ, отраженный в брендбуках.
           </p>
         </div>
-        <div class="col-md-6 mb-5">
+        <div class="col-md-4 mb-3">
           <div class="services__imgCont mb-3 mx-auto">
-            <img class="services__img" src="../../../img/brand.png" alt="" />
+            <i class="fas fa-box-open"></i>
           </div>
-          <h4 class="title mb-4 text-center">
+          <h4 class="title mb-2 text-center">
             Дизайн уповки
           </h4>
           <p class="services__text text-center">
@@ -194,11 +193,11 @@
             пользу бренда.
           </p>
         </div>
-        <div class="col-md-6 mb-5">
+        <div class="col-md-4 mb-3">
           <div class="services__imgCont mb-3 mx-auto">
-            <img class="services__img" src="../../../img/line-chart.png" alt="" />
+            <i class="fas fa-chart-bar"></i>
           </div>
-          <h4 class="title mb-4 text-center">
+          <h4 class="title mb-2 text-center">
             Стратегия развития бренда
           </h4>
           <p class="services__text text-center">
@@ -206,11 +205,11 @@
             бренда — это всегда сугубо индивидуальное и уникальное в своем роде решение, требующее комплексного подхода.
           </p>
         </div>
-        <div class="col-md-6 mb-5">
+        <div class="col-md-4 mb-3">
           <div class="services__imgCont mb-3 mx-auto">
-            <img class="services__img" src="../../../img/presentation-board-with-graph.png" alt="" />
+            <i class="fas fa-file-invoice"></i>
           </div>
-          <h4 class="title mb-4 text-center">
+          <h4 class="title mb-2 text-center">
             Презентационные материалы
           </h4>
           <p class="services__text text-center">
@@ -218,11 +217,11 @@
             Мы знаем не только как его оформить, но и поможем его сформировать, проработать его структуру.
           </p>
         </div>
-        <div class="col-md-6 mb-5">
+        <div class="col-md-4 mb-3">
           <div class="services__imgCont mb-3 mx-auto">
-            <img class="services__img" src="../../../img/website-design-symbol.png" alt="" />
+            <i class="fas fa-laptop-code"></i>
           </div>
-          <h4 class="title mb-4 text-center">
+          <h4 class="title mb-2 text-center">
             Разработка корпоративных сайтов
           </h4>
           <p class="services__text text-center">
@@ -230,11 +229,11 @@
             является создание статуса, позиционирование компании в сети, а также презентация и продажа услуг компании.
           </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="services__imgCont mb-3 mx-auto">
-            <img class="services__img" src="../../../img/printing-tool.png" alt="" />
+            <i class="fas fa-print"></i>
           </div>
-          <h4 class="title mb-4 text-center">
+          <h4 class="title mb-2 text-center">
             Производство печатной продукции
           </h4>
           <p class="services__text text-center">
@@ -246,44 +245,53 @@
     </div>
 
     <div class="received">
-      <div class="container py-5">
-        <div class="row">
+      <div class="container py-4">
+        <div class="row justify-content-around">
           <div class="col-md-10 mx-auto mb-5">
             <h3 class="main-title text-center text-white">
               Вы получите
             </h3>
           </div>
-          <div class="col-md-3 mb-5 mb-md-0">
+          <div class="col-md-4 mb-5 mb-md-3">
             <div class="received__imgCont mx-auto mb-4">
-              <img class="received__img" src="../../../img/fingerprint.png" alt="" />
+              <i class="fas fa-chart-line"></i>
             </div>
-            <p class="received__text text-center">Набор центральных идентифицирующих элементов</p>
+            <p class="received__text text-center">
+              Прирост трафика
+            </p>
           </div>
-          <div class="col-md-3 mb-5 mb-md-0">
+          <div class="col-md-4 mb-5 mb-md-3">
             <div class="received__imgCont mx-auto mb-4">
-              <img class="received__img" src="../../../img/light-bulb.png" alt="" />
+              <i class="fas fa-users"></i>
             </div>
-            <p class="received__text text-center">Уникальный и виделяющийся дизайн</p>
+            <p class="received__text text-center">
+              Увеличение конверсии
+            </p>
           </div>
-          <div class="col-md-3 mb-5 mb-md-0">
+          <div class="col-md-4 mb-5 mb-md-3">
             <div class="received__imgCont mx-auto mb-4">
-              <img
-                class="received__img"
-                src="../../../img/responsive-symbol-with-a-widescreen-monitor-a-cellphone-and-a-tablet.png"
-                alt=""
-              />
+              <i class="fas fa-magic"></i>
             </div>
-            <p class="received__text text-center">Адаптивность всех элементов</p>
+            <p class="received__text text-center">Увеличение узнаваемости бренда</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4 mb-5 mb-md-0">
             <div class="received__imgCont mx-auto mb-4">
-              <img class="received__img" src="../../../img/sunglasses-variant-with-shine.png" alt="" />
+              <i class="far fa-thumbs-up"></i>
             </div>
-            <p class="received__text text-center">Запоминающийся образ бренда</p>
+            <p class="received__text text-center">Гарантию качества</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="received__imgCont mx-auto mb-4">
+              <i class="fas fa-eye"></i>
+            </div>
+            <p class="received__text text-center">
+              Возможность контролировать весь процесс
+            </p>
           </div>
         </div>
       </div>
     </div>
+
     <div class="container py-5 ourworks">
       <div class="row">
         <div class="col-md-10 mx-auto mb-5">
@@ -295,7 +303,7 @@
 
         <div class="col-md-4 d-flex justify-content-center mb-5 mb-md-0">
           <div class="card" style="width: 18rem;">
-            <img src="../../../img/brand1.jpg" class="card-img-top" alt="..." />
+            <img src="img/brand1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Starbucks coffee</h5>
             </div>
@@ -303,7 +311,7 @@
         </div>
         <div class="col-md-4 d-flex justify-content-center mb-5 mb-md-0">
           <div class="card" style="width: 18rem;">
-            <img src="../../../img/brand2.jpg" class="card-img-top" alt="..." />
+            <img src="img/brand2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Кроссовки Nike</h5>
             </div>
@@ -311,7 +319,7 @@
         </div>
         <div class="col-md-4 d-flex justify-content-center mb-5 mb-md-0">
           <div class="card" style="width: 18rem;">
-            <img src="../../../img/brand3.jpg" class="card-img-top" alt="..." />
+            <img src="img/brand3.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Носки UNSPLASH</h5>
             </div>
@@ -320,87 +328,118 @@
       </div>
     </div>
     <div class="whyweare">
-      <div class="container py-5">
+      <div class="container py-4">
         <div class="row">
-          <div class="col-md-10 mx-auto mb-5">
+          <div class="col-md-10 mx-auto mb-3">
             <h2 class="main-title text-center mb-3">
               Почему выбирают нас?
             </h2>
           </div>
           <div class="col-md-3 mb-5 mb-md-0">
             <div class="whyweare__imgCont mb-4">
-              <img src="../../../img/credit-cards-payment.png" alt="" />
+              <i class="far fa-credit-card"></i>
             </div>
-            <h3 class="mb-3">С нами удобно</h3>
+            <h3 class="mb-2">С нами удобно</h3>
             <p>Любые формы оплаты, работаем во всех регионах РФ</p>
           </div>
           <div class="col-md-3 mb-5 mb-md-0">
             <div class="whyweare__imgCont mb-4">
-              <img src="../../../img/clock.png" alt="" />
+              <i class="fas fa-calendar-alt"></i>
             </div>
-            <h3 class="mb-3">Срочно</h3>
+            <h3 class="mb-2">Срочно</h3>
             <p>Оперативное согласование и запуск проекта за 24 часа</p>
           </div>
           <div class="col-md-3 mb-5 mb-md-0">
             <div class="whyweare__imgCont mb-4">
-              <img src="../../../img/shield.png" alt="" />
+              <i class="fas fa-shield-alt"></i>
             </div>
-            <h3 class="mb-3">Безопасно</h3>
+            <h3 class="mb-2">Безопасно</h3>
             <p>9 лет мы проводим успешные рекламные компании</p>
           </div>
           <div class="col-md-3">
             <div class="whyweare__imgCont mb-4">
-              <img src="../../../img/paper-pencil-and-calculator.png" alt="" />
+              <i class="fas fa-money-bill-alt"></i>
             </div>
-            <h3 class="mb-3">Экономно</h3>
+            <h3 class="mb-2">Экономно</h3>
             <p>Мы делаем максимально выгодные предложения</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container py-5 howwedo">
-      <div class="row">
-        <div class="col-md-10 mx-auto mb-5">
-          <h2 class="main-title text-center mb-3">
-            Как мы работаем?
-          </h2>
+
+    <div class="container py-5 backcall">
+      <div class="row align-items-center">
+        <div class="col-md-10 mx-auto">
+          <h3 class="main-title mb-4 text-center">ПЕРЕЗВОНИМ ВАМ ЧЕРЕЗ 45 СЕКУНД!</h3>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group mb-4">
+              <input type="text" class="form-control" placeholder="Имя" />
+            </div>
+
+            <div class="form-group mb-4">
+              <input type="phone" class="form-control" placeholder="Телефон" />
+            </div>
+
+            <button type="submit" class="btn btn-dark consultation__btn btn-lg">
+              Отправить заявку
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6 backcall__imgCont d-none d-md-flex align-items-center justify-content-center">
+          <img src="img/call.jpeg" alt="" />
         </div>
       </div>
-      <div class="row justify-content-around">
-        <div class="col-md-4 mb-5">
-          <div class="howwedo__imgCont mx-auto mb-3">
-            <img src="../../../img/chat.png" alt="" />
+    </div>
+
+    <div class="howwedo">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-10 mx-auto mb-3">
+            <h2 class="main-title text-center">
+              Как мы работаем?
+            </h2>
           </div>
-          <h3 class="title text-center mb-3">Получаем заказ</h3>
-          <p class="text-center">Готовим предложение</p>
         </div>
-        <div class="col-md-4 mb-5">
-          <div class="howwedo__imgCont mx-auto mb-3">
-            <img src="../../../img/contract.png" alt="" />
+        <div class="row justify-content-around">
+          <div class="col-md-4 mb-3">
+            <div class="howwedo__imgCont mx-auto mb-3">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3 class="title text-center mb-2">Получаем заказ</h3>
+            <p class="text-center">Готовим предложение</p>
           </div>
-          <h3 class="title text-center mb-3">Согласовываем условия</h3>
-          <p class="text-center">Заключаем официальный договор</p>
-        </div>
-        <div class="col-md-4 mb-5">
-          <div class="howwedo__imgCont mx-auto mb-3">
-            <img src="../../../img/funds.png" alt="" />
+          <div class="col-md-4 mb-3">
+            <div class="howwedo__imgCont mx-auto mb-3">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3 class="title text-center mb-2">Согласовываем условия</h3>
+            <p class="text-center">Заключаем официальный договор</p>
           </div>
-          <h3 class="title text-center">Получаем оплату</h3>
-          <p class="text-center">Готовим и запускаем проект</p>
-        </div>
-        <div class="col-md-4 mb-5">
-          <div class="howwedo__imgCont mx-auto mb-3">
-            <img src="../../../img/tick-inside-circle.png" alt="" />
+          <div class="col-md-4 mb-3">
+            <div class="howwedo__imgCont mx-auto mb-3">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <h3 class="title text-center mb-2">Получаем оплату</h3>
+            <p class="text-center">Готовим и запускаем проект</p>
           </div>
-          <h3 class="title text-center mb-3">Проводим проект</h3>
-          <p class="text-center">Постоянно находимся в контакте с заказчиком</p>
-        </div>
-        <div class="col-md-4 mb-5">
-          <div class="howwedo__imgCont mx-auto mb-3">
-            <img src="../../../img/check-form.png" alt="" />
+          <div class="col-md-4 mb-3">
+            <div class="howwedo__imgCont mx-auto mb-3">
+              <i class="fas fa-cog"></i>
+            </div>
+            <h3 class="title text-center mb-2">Проводим проект</h3>
+            <p class="text-center">Постоянно находимся в контакте с заказчиком</p>
           </div>
-          <h3 class="title text-center mb-3">Предоставляем отчет</h3>
-          <p class="text-center">Подводим итоги, закрываем актами выполненых работ</p>
+          <div class="col-md-4 mb-3">
+            <div class="howwedo__imgCont mx-auto mb-3">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3 class="title text-center mb-2">Предоставляем отчет</h3>
+            <p class="text-center">
+              Подводим итоги, закрываем актами выполненых работ
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -409,21 +448,21 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-md-10 mx-auto mb-5">
-            <h3 class="main-title text-center text-white">
+            <h3 class="main-title text-center">
               Наши клиенты
             </h3>
           </div>
           <div class="col-md-3 clients__imgCont mb-5 mb-md-0">
-            <img src="../../../img/client1.png" alt="" />
+            <img src="img/client1.png" alt="" />
           </div>
           <div class="col-md-3 clients__imgCont  mb-5 mb-md-0">
-            <img src="../../../img/client2.png" alt="" />
+            <img src="img/client2.png" alt="" />
           </div>
           <div class="col-md-3 clients__imgCont  mb-5 mb-md-0">
-            <img src="../../../img/client3.png" alt="" />
+            <img src="img/client3.png" alt="" />
           </div>
           <div class="col-md-3 clients__imgCont  mb-5 mb-md-0">
-            <img src="../../../img/client4.png" alt="" />
+            <img src="img/client4.png" alt="" />
           </div>
         </div>
       </div>
@@ -435,11 +474,11 @@
           <div class="col-md-12">
             <h3 class="mb-4">MSG</h3>
             <div class="footer__phone d-flex align-items-center mb-3">
-              <img src="../../img/telephone.png" alt="" class="mr-2" />
+              <img src="img/telephone.png" alt="" class="mr-2" />
               <span class="text-white">+3(123)-123-22-33</span>
             </div>
             <div class="footer__email d-flex align-items-center mb-4">
-              <img src="../../img/envelope.png" alt="" class="mr-2" />
+              <img src="img/envelope.png" alt="" class="mr-2" />
               <span class="text-white">info@gmail.com</span>
             </div>
             <span class="text-white footer__copyright">
