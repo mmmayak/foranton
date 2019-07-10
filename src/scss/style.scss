@@ -623,6 +623,81 @@ footer {
   }
 }
 
+/* VIBER____EXAMPLE */
+.viber-example {
+  background: url(../img/viber.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+  }
+  &__img {
+    max-width: 180px;
+    width: 100% !important;
+    border-radius: 30px;
+    box-shadow: 0 9px 14px -5px rgba(0,0,0,.83);
+  }
+  
+}
+/* VIBER____SEND */
+.viber-send {
+  &__box {
+    box-shadow: 0 9px 14px -5px rgba(0,0,0,.83);
+    border-radius: 0 0 5px 5px;
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #232b4b;
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 5px 5px 0 0;
+  }
+  table {
+    width: 100%;
+    padding: 20px;
+    
+  }
+  tbody {
+    background: #36454a;
+    color: #fff;
+  }
+  th {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  td {
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  &__list-block {
+    padding: 10px 20px;
+    
+    p {
+      text-align: center;
+      padding: 5px 0;
+      font-weight: bold;
+      color: #232b4b;
+      border-bottom: 1px solid#ddd;
+    }
+  }
+}
+
+
 @media (max-width: 575.98px) {
   .banner {
     &__title {
